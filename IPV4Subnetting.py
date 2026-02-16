@@ -160,6 +160,5 @@ def Main():
             print("\nFailed to allocate subnets. Please try with a larger base network.")
         another = input("\nPerform another calculation? (y/n): ").lower()
         if another != 'y':
-            print("Thank you for using the IPv4 Subnetting Calculator!")
             break
 Main()
